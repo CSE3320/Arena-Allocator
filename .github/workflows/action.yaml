@@ -1,3 +1,4 @@
+name: editing 
 name: Replace tokens
   uses: cschleiden/replace-tokens@v1.2
   with:
