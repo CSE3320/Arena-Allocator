@@ -28,10 +28,10 @@
 
 enum ALGORITHM
 {
-  NEXT_FIT = 0,
-  BEST_FIT,
+  BEST_FIT = 0,
+  FIRST_FIT,
   WORST_FIT,
-  FIRST_FIT
+  NEXT_FIT
 }; 
 
 /**
