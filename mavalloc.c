@@ -49,3 +49,5 @@ int mavalloc_size( )
 
   return number_of_nodes;
 }
+
+// -- vim settings -- RmFsbCAyMDIz
