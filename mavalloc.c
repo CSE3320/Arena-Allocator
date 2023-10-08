@@ -1,3 +1,4 @@
+#{TOKEN}#
 // The MIT License (MIT)
 // 
 // Copyright (c) 2021, 2022, 2023 Trevor Bakker 
