@@ -1,5 +1,5 @@
 
-- uses: cschleiden/replace-tokens@v1
+- uses: cschleiden/replace-tokens@v1.2
   with:
     files: '["**/*.c"]'
   env:
