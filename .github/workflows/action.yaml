@@ -1,1 +1,6 @@
 
+- uses: cschleiden/replace-tokens@v1
+  with:
+    files: '["**/*.c"]'
+  env:
+    TOKEN: TJB
