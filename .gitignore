@@ -1,0 +1,61 @@
+unit_test
+mavalloc_solution.c
+testprog
+*.o
+*.a
+benchmark1
+benchmark2
+benchmark3
+benchmark4
+benchmark5
+benchmark1_tracy
+benchmark2_tracy
+benchmark3_tracy
+benchmark4_tracy
+benchmark5_tracy
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build Directory
+out/build/
+
+# Macos stuff
+.DS_Store
+
+# vs code
+.vscode
+
+# Weird Tracy Shared Object
+*.so.[0-9]*.[0-9]*.[0-9]*
+:
