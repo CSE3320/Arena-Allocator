@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cmake -S ext/tracy-0.10 -B out/build -DTRACY_ENABLE=ON -DTRACY_ON_DEMAND=ON -DTRACY_NO_BROADCAST=ON -DBUILD_SHARED_LIBS=ON -DTRACY_STATIC=OFF -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=../..
+cmake --build out/build 
+
+BASEDIR=$(cd $(dirname $0) && pwd)
+
+export LD_LIBRARY_PATH=${BASEDIR}
+echo $LD_LIBRARY_PATH
